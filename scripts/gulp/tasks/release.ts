@@ -320,11 +320,5 @@ task('release.preparePackageJsonTemplate', () => {
 task('release.nightlyPackageJson', () => {
   const packageJson: any = require(`${DIST_BUILD_ROOT}/package.json`);
 
-  packageJson.version = packageJson.version.split('-')
-                                   .slice(0, 2)
-                                   .concat(createTimestamp())
-                                   .join('-');
-
-  writeFileSync(`${DIST_BUILD_ROOT}/package.json`, JSON.stringify(packageJson, null, 2));
   setSassIonicVersion(packageJson.version);
 });

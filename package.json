@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "ionic2",
-  "version": "3.9.2",
+  "name": "pw-ionic-angular",
+  "version": "3.0.0",
   "description": "A powerful framework for building mobile and progressive web apps with JavaScript and Angular",
   "keywords": [
     "ionic",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/ionic.git"
+    "url": "https://github.com/pw-repo/pw-ionic-angular.git"
   },
   "scripts": {
     "test": "gulp validate",
