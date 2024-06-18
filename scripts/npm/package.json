@@ -1,11 +1,11 @@
 {
-  "name": "ionic-angular",
+  "name": "pw-ionic-angular",
   "version": "`gulp package` generates dist/package.json from this template using the root ./package.json",
   "description": "",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/ionic.git"
+    "url": "https://github.com/pw-repo/pw-ionic-angular.git"
   },
   "license": "MIT",
   "main": "umd/index.js",
